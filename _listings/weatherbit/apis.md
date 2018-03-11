@@ -25,7 +25,7 @@ apis:
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/weather/master/_listings/weatherbit/current-city-city-country-country-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/weather/master/_listings/weatherbit/current-city-id-city-id-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
