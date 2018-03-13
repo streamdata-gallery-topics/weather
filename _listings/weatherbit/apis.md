@@ -25,7 +25,7 @@ apis:
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/weather/master/_listings/weatherbit/history-daily-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/weather/master/_listings/weatherbit/history-daily-lat-lat-lon-lon-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
