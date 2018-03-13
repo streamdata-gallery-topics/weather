@@ -25,7 +25,7 @@ apis:
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/weather/master/_listings/weatherbit/bulk-history-hourly-station-station-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/weather/master/_listings/weatherbit/bulk-file-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
