@@ -26,21 +26,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Forecast Daily City & Country
+- name: Weatherbit Get Forecast Daily City
   description: '**(REQUIRED: Basic Plan or Higher)** Returns a daily forecast, where
     each point represents one day (24hr) period. Every point has a datetime string
-    in the format "YYYY-MM-DD". One day begins at 00:00 UTC, and ends at 23:59 UTC.
-    Accepts a city in the format of City,ST or City. The state, and country parameters
-    can be provided to make the search more accurate.'
+    in the format "YYYY-MM-DD". One day begins at 00:00 UTC, and ends at 23:59 UTC.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-city-city-country-country-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-city-id-city-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-city-city-country-country-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-city-id-city-id-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
