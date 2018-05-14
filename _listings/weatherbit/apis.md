@@ -26,19 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Bulk File
-  description: '**(Advanced/Advanced+/Enterprise plans only)** Downloads bulk data
-    files - OPTIONS: (forecast16d.json.gz - 16 day forecasts for cities > 1000 population,
-    current.json.gz - Current observations for cities > 1000 population).'
+- name: Weatherbit Get Current Cities
+  description: '**(Advanced/Advanced+/Enterprise plans only)** Returns a group of
+    Current Observations - Given a list of City IDs.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/bulk-file-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-cities-cities-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/bulk-file-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-cities-cities-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
