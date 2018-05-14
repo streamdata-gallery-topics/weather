@@ -1,12 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Weatherbit
-  description: This is the documentation for the Weatherbit API.  The base URL for
-    the API is [http://api.weatherbit.io/v2.0/](http://api.weatherbit.io/v2.0/) or
-    [https://api.weatherbit.io/v2.0/](http://api.weatherbit.io/v2.0/). Below is the
-    Swagger UI documentation for the API. All API requests require the `key` parameter.        An
-    Example for a 5 day forecast for London, UK would be `http://api.weatherbit.io/v2.0/forecast/3hourly?city=London`&amp;`country=UK`
+  title: Weatherbit Get Bulk File
+  description: '**(Advanced/Advanced+/Enterprise plans only)** Downloads bulk data
+    files - OPTIONS: (forecast16d.json.gz - 16 day forecasts for cities > 1000 population,
+    current.json.gz - Current observations for cities > 1000 population).'
   version: 2.0.0
 host: api.weatherbit.io
 basePath: /v2.0
