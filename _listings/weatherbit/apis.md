@@ -39,18 +39,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get-postman.md
-- name: Weatherbit Get History Daily Station Station
-  description: Returns Historical Observations - Given a station ID. **(LIMIT 1 day
-    for Low Volume plans. LIMIT 7 days for Basic/Developer. LIMIT 30 days for Advanced/Advanced+/Enterprise)**
+- name: Weatherbit Get History Energy Bbox Lat1 Lat1 &lon1 Lon1 &lat2 Lat2 &lon2 Lon2
+  description: 'Returns aggregate energy specific historical weather fields, over
+    a specified time period. Supply a bounding box ex: lat1=40&lon1=-78&lat2=38&lon2=-80.
+    This API will return UP TO 150 stations, aggregated by the specified time period
+    start_date to end_date.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-daily-station-station-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-energy-bbox-lat1-lat1-lon1-lon1-lat2-lat2-lon2-lon2-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-daily-station-station-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-energy-bbox-lat1-lat1-lon1-lon1-lat2-lat2-lon2-lon2-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
