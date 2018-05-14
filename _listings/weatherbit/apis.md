@@ -39,9 +39,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get-postman.md
-- name: Weatherbit Get History Daily IP
-  description: Returns Historical Observations - Given IP Address, or auto. **(LIMIT
-    1 day for Low Volume plans. LIMIT 7 days for Basic/Developer. LIMIT 30 days for
+- name: Weatherbit Get History Daily Lat & Lon
+  description: Returns Historical Observations - Given a lat, and lon. **(LIMIT 1
+    day for Low Volume plans. LIMIT 7 days for Basic/Developer. LIMIT 30 days for
     Advanced/Advanced+/Enterprise)**
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
@@ -49,9 +49,9 @@ apis:
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-daily-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-daily-lat-lat-lon-lon-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-daily-ip-ip-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-daily-lat-lat-lon-lon-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
