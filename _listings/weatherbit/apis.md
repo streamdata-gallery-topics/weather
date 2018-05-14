@@ -39,9 +39,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get-postman.md
-- name: Weatherbit Get Forecast Hourly Lat & Lon
+- name: Weatherbit Get Forecast Hourly Postla Code Code
   description: '**(REQUIRED: Developer Plan or Higher)** Returns an hourly forecast,
-    where each point represents a one hour period. Every point has a datetime string
+    where each point represents a one hour   period. Every point has a datetime string
     in the format "YYYY-MM-DD:HH". Time is UTC.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
@@ -49,9 +49,9 @@ apis:
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-lat-lat-lon-lon-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-postal-code-postal-code-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-lat-lat-lon-lon-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-postal-code-postal-code-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
