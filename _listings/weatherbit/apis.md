@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Current Postla Code Code
-  description: Returns current weather observation - Given a Postal Code.
+- name: Weatherbit Get Current Station Station
+  description: Returns a Current Observation - Given a station ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-postal-code-postal-code-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-station-station-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-postal-code-postal-code-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-station-station-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
