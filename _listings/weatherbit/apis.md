@@ -26,19 +26,45 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Current Cities
-  description: '**(Advanced/Advanced+/Enterprise plans only)** Returns a group of
-    Current Observations - Given a list of City IDs.'
+- name: Weatherbit Get Bulk History Hourly City
+  description: Returns Historical Observations - Given a City ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-cities-cities-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/bulk-history-hourly-city-id-city-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-cities-cities-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/bulk-history-hourly-city-id-city-id-get-postman.md
+- name: Weatherbit Get Current City & Country
+  description: Returns a Current Observation - Given a city in the format of City,ST
+    or City. The state, and country parameters can be provided to make the search
+    more accurate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
+  humanURL: https://www.weatherbit.io/api
+  baseURL: https://api.weatherbit.io//v2.0
+  tags: Weather
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-city-city-country-country-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-city-city-country-country-get-postman.md
 x-common:
+- type: x-blog
+  url: https://www.weatherbit.io/blog
+- type: x-contact-form
+  url: https://www.weatherbit.io/contact
+- type: x-documentation
+  url: https://www.weatherbit.io/api
+- type: x-github
+  url: https://github.com/weatherbit
+- type: x-pricing
+  url: https://www.weatherbit.io/pricing
+- type: x-twitter
+  url: https://twitter.com/weatherbitio
+- type: x-website
+  url: https://www.weatherbit.io/api
 - type: x-blog
   url: https://www.weatherbit.io/blog
 - type: x-contact-form
