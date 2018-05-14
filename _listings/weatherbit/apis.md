@@ -39,18 +39,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get-postman.md
-- name: Weatherbit Get History Hourly Station Station
-  description: Returns Historical Observations - Given a station ID. **(LIMIT 1 day
-    for Low Volume plans. LIMIT 7 days for Basic/Developer. LIMIT 30 days for Advanced/Advanced+/Enterprise)**
+- name: Weatherbit Get IP
+  description: Returns a geolocation object. Given an IP address. If no IP supplied,
+    will use request IP address.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-hourly-station-station-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/history-hourly-station-station-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
