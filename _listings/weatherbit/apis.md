@@ -26,7 +26,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Forecast Daily IP
+- name: Weatherbit Get Forecast Daily Lat & Lon
   description: '**(REQUIRED: Basic Plan or Higher)** Returns a daily forecast, where
     each point represents one day (24hr) period. Every point has a datetime string
     in the format "YYYY-MM-DD". One day begins at 00:00 UTC, and ends at 23:59 UTC.'
@@ -36,9 +36,9 @@ apis:
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-lat-lat-lon-lon-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-ip-ip-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/forecast-daily-lat-lat-lon-lon-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
