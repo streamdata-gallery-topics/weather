@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Current IP
-  description: Returns a Current Observation - Given an IP address, or auto.
+- name: Weatherbit Get Current Lat & Lon
+  description: Returns a Current Observation - given a lat, and a lon.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-lat-lat-lon-lon-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-ip-ip-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-lat-lat-lon-lon-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
