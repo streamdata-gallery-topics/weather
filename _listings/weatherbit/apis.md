@@ -26,43 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/ip-ip-ip-get.md
-- name: Weatherbit Get Bulk History Hourly City
-  description: Returns Historical Observations - Given a City ID.
+- name: Weatherbit Get Current IP
+  description: Returns a Current Observation - Given an IP address, or auto.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Weather
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/bulk-history-hourly-city-id-city-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-ip-ip-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/bulk-history-hourly-city-id-city-id-get-postman.md
-- name: Weatherbit Get Current City
-  description: Returns current weather observation - Given a City ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
-  humanURL: https://www.weatherbit.io/api
-  baseURL: https://api.weatherbit.io//v2.0
-  tags: Weather
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-city-id-city-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-city-id-city-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/current-ip-ip-get-postman.md
 x-common:
-- type: x-blog
-  url: https://www.weatherbit.io/blog
-- type: x-contact-form
-  url: https://www.weatherbit.io/contact
-- type: x-documentation
-  url: https://www.weatherbit.io/api
-- type: x-github
-  url: https://github.com/weatherbit
-- type: x-pricing
-  url: https://www.weatherbit.io/pricing
-- type: x-twitter
-  url: https://twitter.com/weatherbitio
-- type: x-website
-  url: https://www.weatherbit.io/api
 - type: x-blog
   url: https://www.weatherbit.io/blog
 - type: x-contact-form
