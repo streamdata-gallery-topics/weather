@@ -12,6 +12,10 @@ tags: Weather
 include:
 - name: Weatherbit
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/apis.yaml
+- name: Netatmo
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/netatmo/apis.yaml
+- name: Weather Underground
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
