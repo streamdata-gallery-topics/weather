@@ -7,12 +7,12 @@ description: We develop groundbreaking, intuitive and beautifully-designed conne
   design the mechanics, electronics and embedded software of all our products to the
   highest standards. Our mobile and web applications are designed to be simple to
   operate, yet deliver a rich user experience.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Weather
-created: "2018-05-28"
-modified: "2018-05-28"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/netatmo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +20,7 @@ apis:
   x-api-slug: netatmo
   description: The method getstationsdata Returns data from a user Weather Stations
     (measures and device specific data).
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png
   humanURL: http://www.netatmo.com
   baseURL: https://api.netatmo.net//api//getstationsdata
   tags: Weather,Stations
@@ -37,7 +37,7 @@ apis:
     the data the devices have recorded. In the near future, developers will also have
     access to the Netatmo Public API, which will allow third party applications to
     retrieve data that has been marked as public by the device&#039;s owner.
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png
   humanURL: http://www.netatmo.com
   baseURL: https://api.netatmo.net//api
   tags: Weather

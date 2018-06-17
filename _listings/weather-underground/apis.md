@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weathe
 x-kinRank: "10"
 x-alexaRank: "619"
 tags: Weather
-created: "2018-05-28"
-modified: "2018-05-28"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/apis.md
 specificationVersion: "0.14"
 apis:
@@ -145,13 +145,13 @@ apis:
     for San Francisco, California.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/almanac/q/CA/San_Francisco.json
+  baseURL: https://api.wunderground.com//api///{key}/almanac/q/{state}/San_Francisco.json
   tags: Weather,Key,Almanac,Q,CA,San,Francisco,Json
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalmanacqcasan-francisco-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalmanacqstatesan-francisco-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalmanacqcasan-francisco-json-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalmanacqstatesan-francisco-json-get-openapi.md
 - name: Weather Underground Get Key Conditions Forecast Lang Fr Q France Paris
   x-api-slug: weather-underground
   description: This example will return Current Conditions and a 3 day simple Forecast
@@ -255,13 +255,13 @@ apis:
     request only works in the USA, Canada and Europe.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/alerts/q/CA/San_Francisco.json
+  baseURL: https://api.wunderground.com//api///{key}/alerts/q/{state}/San_Francisco.json
   tags: Weather,Key,Alerts,Q,CA,San,Francisco,Json
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalertsqcasan-francisco-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalertsqstatesan-francisco-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalertsqcasan-francisco-json-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyalertsqstatesan-francisco-json-get-openapi.md
 - name: Weather Underground Get Key Te Q Ca San Francisco
   x-api-slug: weather-underground
   description: This example will return 4 days of tides for San Francisco, California
@@ -376,13 +376,13 @@ apis:
     these images.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/animatedradar/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=0
+  baseURL: https://api.wunderground.com//api///{key}/animatedradar/image.gif
   tags: Weather,Key,Animatedradar,Image,Gif?maxlat=42,35%26maxlon=-109,311%26minlat=39,27%26minlon=-114,644%26width=600%26height=480%26newmaps=0
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyanimatedradarimage-gifmaxlat42-3526maxlon109-31126minlat39-2726minlon114-64426width60026height48026newmaps0-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyanimatedradarimage-gif-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyanimatedradarimage-gifmaxlat42-3526maxlon109-31126minlat39-2726minlon114-64426width60026height48026newmaps0-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/keyanimatedradarimage-gif-get-openapi.md
 - name: Weather Underground Get Key History 20101018 Q Sfo
   x-api-slug: weather-underground
   description: This example will return historical data for San Francisco, California

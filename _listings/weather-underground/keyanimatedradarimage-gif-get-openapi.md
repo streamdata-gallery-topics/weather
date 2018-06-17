@@ -3,9 +3,11 @@ swagger: "2.0"
 x-collection-name: Weather Underground
 x-complete: 0
 info:
-  title: Weather Underground Get Key Hourly10day Q Ca San Francisco
-  description: This example will return a detailed hourly forecast for the next 10
-    days in San Francisco, California
+  title: Weather Underground Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon
+    109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0
+  description: This example will return dynamic animated radar image around Salt Lake
+    City, UT with a transparent background. See Docs for all the options for creating
+    these images.
   version: 1.0.0
 host: api.wunderground.com
 basePath: /api/
@@ -721,6 +723,204 @@ paths:
       - San
       - Francisco
       - Json
+  /{key}/yesterday/q/CA/San_Francisco.json:
+    get:
+      summary: Get Key Yesterday Q Ca San Francisco
+      description: This example will return yesterday's weather in San Francisco,
+        California.
+      operationId: Get_yesterday_example_
+      x-api-path-slug: keyyesterdayqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Yesterday
+      - Q
+      - CA
+      - San
+      - Francisco
+      - Json
+  /{key}/planner_10051031/q/CA/San_Francisco.json:
+    get:
+      summary: Get Key Planner 10051031 Q Ca San Francisco
+      description: 'This example will return a Historical roll up of weather data
+        in San Francisco from Oct 5 to Oct 31. An example application: http://www.wunderground.com/travelplanner/index.asp'
+      operationId: Get_Planner_example_
+      x-api-path-slug: keyplanner-10051031qcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Planner
+      - "10051031"
+      - Q
+      - CA
+      - San
+      - Francisco
+      - Json
+  /{key}/webcams/q/CA/San_Francisco.json:
+    get:
+      summary: Get Key Webcams Q Ca San Francisco
+      description: This example will return URL's to webcam images in San Francisco,
+        California.    It will also return information about the webcam, including
+        it's location in Lat,Long coordinates.
+      operationId: Get_cams_example_
+      x-api-path-slug: keywebcamsqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Webcams
+      - Q
+      - CA
+      - San
+      - Francisco
+      - Json
+  ? /{key}/animatedradar/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1
+  : get:
+      summary: Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat
+        39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1
+      description: This example will return dynamic animated radar image around Salt
+        Lake City, UT with a base map background. See Docs for all the options for
+        creating these images.
+      operationId: Get_radar_example3_
+      x-api-path-slug: keyanimatedradarimage-gifmaxlat42-3526maxlon109-31126minlat39-2726minlon114-64426width60026height48026newmaps1-get
+      parameters:
+      - in: query
+        name: height
+        description: The height
+        type: string
+        format: string
+      - in: query
+        name: maxlat
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: maxlon
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: minlat
+        description: Min latitude
+        type: string
+        format: string
+      - in: query
+        name: minlon
+        description: Min longitude
+        type: string
+        format: string
+      - in: query
+        name: width
+        description: The width
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Animatedradar
+      - Image
+      - Gif?maxlat=42
+      - 35%26maxlon=-109
+      - 311%26minlat=39
+      - 27%26minlon=-114
+      - 644%26width=600%26height=480%26newmaps=1
+  /{key}/animatedradar/image.gif:
+    get:
+      summary: Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat
+        39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0
+      description: This example will return dynamic animated radar image around Salt
+        Lake City, UT with a transparent background. See Docs for all the options
+        for creating these images.
+      operationId: Get_radar_example4_
+      x-api-path-slug: keyanimatedradarimage-gif-get
+      parameters:
+      - in: query
+        name: height
+        description: The height
+        type: string
+        format: string
+      - in: query
+        name: maxlat
+        description: Max latitude
+        type: string
+        format: string
+      - in: query
+        name: maxlon
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: minlat
+        description: Min latitude
+        type: string
+        format: string
+      - in: query
+        name: minlon
+        description: Min longitude
+        type: string
+        format: string
+      - in: query
+        name: width
+        description: The width
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Animatedradar
+      - Image
+      - Gif?maxlat=42
+      - 35%26maxlon=-109
+      - 311%26minlat=39
+      - 27%26minlon=-114
+      - 644%26width=600%26height=480%26newmaps=0
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

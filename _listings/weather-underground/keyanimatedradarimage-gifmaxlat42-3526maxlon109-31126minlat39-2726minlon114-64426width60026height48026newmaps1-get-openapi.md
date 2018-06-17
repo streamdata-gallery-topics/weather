@@ -25,6 +25,17 @@ paths:
         CA.    Use {2 letter state code} /    {City Name}
       operationId: Get_USA_Geolocate_example_
       x-api-path-slug: keygeolookupqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -44,6 +55,17 @@ paths:
         Use {Full Country Name} / {City Name}
       operationId: Get_Outside_of_USA_Geolocate_example_
       x-api-path-slug: keygeolookupqfranceparis-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: country
+        description: The country
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -79,6 +101,12 @@ paths:
         94107
       operationId: Get_ZIP_geolocate_example_
       x-api-path-slug: keygeolookupq94107-json-get
+      parameters:
+      - in: path
+        name: zip_code
+        description: The zip code
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -113,6 +141,17 @@ paths:
         37.776289 N, Longitude 122.395234 W
       operationId: Get_Lat_Long_geolocate_example_
       x-api-path-slug: keygeolookupq37-776289122-395234-json-get
+      parameters:
+      - in: path
+        name: latitude
+        description: The latitude
+        type: string
+        format: string
+      - in: path
+        name: longitude
+        description: The longitude
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -150,6 +189,17 @@ paths:
         California
       operationId: Get_Conditions_example_
       x-api-path-slug: keyconditionsqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -168,6 +218,17 @@ paths:
       description: This example will return the Astronomy of San Francisco, California
       operationId: Get_Astronomy_example_
       x-api-path-slug: keyastronomyqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -187,6 +248,17 @@ paths:
         California
       operationId: Get_forecast3_example_
       x-api-path-slug: keyforecastqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -199,13 +271,24 @@ paths:
       - San
       - Francisco
       - Json
-  /{key}/almanac/q/CA/San_Francisco.json:
+  /{key}/almanac/q/{state}/San_Francisco.json:
     get:
       summary: Get Key Almanac Q Ca San Francisco
       description: This example will return Today's Average Highs/Lows and Record
         Highs/Lows for San Francisco, California.
       operationId: Get_almanac_example_
-      x-api-path-slug: keyalmanacqcasan-francisco-json-get
+      x-api-path-slug: keyalmanacqstatesan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -226,6 +309,22 @@ paths:
         of language code options.
       operationId: Get_French_example_
       x-api-path-slug: keyconditionsforecastlangfrqfranceparis-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: country
+        description: The country
+        type: string
+        format: string
+      - in: path
+        name: language
+        description: The language
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -247,6 +346,22 @@ paths:
         of language code options.
       operationId: Get_Spanish_example_
       x-api-path-slug: keyconditionsforecastlangspqspainalicante-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: country
+        description: The country
+        type: string
+        format: string
+      - in: path
+        name: language
+        description: The language
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -267,6 +382,17 @@ paths:
         California
       operationId: Get_forecast10_example_
       x-api-path-slug: keyforecast10dayqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -286,6 +412,17 @@ paths:
         36 hours in San Francisco, California
       operationId: Get_OneDay_hourly_example_
       x-api-path-slug: keyhourlyqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -305,6 +442,17 @@ paths:
         for San Francisco, California
       operationId: Get_satellite_example_
       x-api-path-slug: keysatelliteqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -326,6 +474,37 @@ paths:
         these images.
       operationId: Get_radar_example_
       x-api-path-slug: keyradarimage-gifmaxlat42-3526maxlon109-31126minlat39-2726minlon114-64426width60026height48026newmaps0-get
+      parameters:
+      - in: query
+        name: height
+        description: The height
+        type: string
+        format: string
+      - in: query
+        name: maxlat
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: maxlon
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: minlat
+        description: Min latitude
+        type: string
+        format: string
+      - in: query
+        name: minlon
+        description: Min longitude
+        type: string
+        format: string
+      - in: query
+        name: width
+        description: The width
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -348,6 +527,37 @@ paths:
         images.
       operationId: Get_radar_example2_
       x-api-path-slug: keyradarimage-gifmaxlat42-3526maxlon109-31126minlat39-2726minlon114-64426width60026height48026newmaps1-get
+      parameters:
+      - in: query
+        name: height
+        description: The height
+        type: string
+        format: string
+      - in: query
+        name: maxlat
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: maxlon
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: minlat
+        description: Min latitude
+        type: string
+        format: string
+      - in: query
+        name: minlon
+        description: Min longitude
+        type: string
+        format: string
+      - in: query
+        name: width
+        description: The width
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -361,13 +571,24 @@ paths:
       - 311%26minlat=39
       - 27%26minlon=-114
       - 644%26width=600%26height=480%26newmaps=1
-  /{key}/alerts/q/CA/San_Francisco.json:
+  /{key}/alerts/q/{state}/San_Francisco.json:
     get:
       summary: Get Key Alerts Q Ca San Francisco
       description: This example will return active severe alerts for San Francisco,
         California.    This request only works in the USA, Canada and Europe.
       operationId: Get_alerts_example_
-      x-api-path-slug: keyalertsqcasan-francisco-json-get
+      x-api-path-slug: keyalertsqstatesan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -387,6 +608,17 @@ paths:
         starting 'today'.    This request only works in the USA.
       operationId: Get_Tide_example1_
       x-api-path-slug: keytideqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -406,6 +638,17 @@ paths:
         following March 3 2012.    This request only works in the USA.
       operationId: Get_Tide_example2_
       x-api-path-slug: keytide-20160312qcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -426,6 +669,17 @@ paths:
         on March 3 2016.    This request only works in the USA.
       operationId: Get_Tide_RAW_example_
       x-api-path-slug: keyrawtide-20160312qcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -446,6 +700,17 @@ paths:
         10 days in San Francisco, California
       operationId: Get_TenDay_hourly_example_
       x-api-path-slug: keyhourly10dayqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -465,6 +730,17 @@ paths:
         California.
       operationId: Get_yesterday_example_
       x-api-path-slug: keyyesterdayqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -484,6 +760,17 @@ paths:
         in San Francisco from Oct 5 to Oct 31. An example application: http://www.wunderground.com/travelplanner/index.asp'
       operationId: Get_Planner_example_
       x-api-path-slug: keyplanner-10051031qcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -505,6 +792,17 @@ paths:
         it's location in Lat,Long coordinates.
       operationId: Get_cams_example_
       x-api-path-slug: keywebcamsqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
       responses:
         200:
           description: OK
@@ -526,6 +824,37 @@ paths:
         creating these images.
       operationId: Get_radar_example3_
       x-api-path-slug: keyanimatedradarimage-gifmaxlat42-3526maxlon109-31126minlat39-2726minlon114-64426width60026height48026newmaps1-get
+      parameters:
+      - in: query
+        name: height
+        description: The height
+        type: string
+        format: string
+      - in: query
+        name: maxlat
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: maxlon
+        description: Max longitude
+        type: string
+        format: string
+      - in: query
+        name: minlat
+        description: Min latitude
+        type: string
+        format: string
+      - in: query
+        name: minlon
+        description: Min longitude
+        type: string
+        format: string
+      - in: query
+        name: width
+        description: The width
+        type: string
+        format: string
       responses:
         200:
           description: OK

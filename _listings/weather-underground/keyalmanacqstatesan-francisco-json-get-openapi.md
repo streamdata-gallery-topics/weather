@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Weather Underground
 x-complete: 0
 info:
-  title: Weather Underground Get Key Conditions Q Pws Kcatahoe2
-  description: This example will return the the current weather conditions at the
-    Personal Weather Station (pws) KCATAHOE2
+  title: Weather Underground Get Key Almanac Q Ca San Francisco
+  description: This example will return Today's Average Highs/Lows and Record Highs/Lows
+    for San Francisco, California.
   version: 1.0.0
 host: api.wunderground.com
 basePath: /api/
@@ -179,6 +179,125 @@ paths:
       - Conditions
       - Q
       - Pws:KCATAHOE2
+      - Json
+  /{key}/conditions/q/CA/San_Francisco.json:
+    get:
+      summary: Get Key Conditions Q Ca San Francisco
+      description: This example will return the current conditions in San Francisco,
+        California
+      operationId: Get_Conditions_example_
+      x-api-path-slug: keyconditionsqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Conditions
+      - Q
+      - CA
+      - San
+      - Francisco
+      - Json
+  /{key}/astronomy/q/CA/San_Francisco.json:
+    get:
+      summary: Get Key Astronomy Q Ca San Francisco
+      description: This example will return the Astronomy of San Francisco, California
+      operationId: Get_Astronomy_example_
+      x-api-path-slug: keyastronomyqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Astronomy
+      - Q
+      - CA
+      - San
+      - Francisco
+      - Json
+  /{key}/forecast/q/CA/San_Francisco.json:
+    get:
+      summary: Get Key Forecast Q Ca San Francisco
+      description: This example will return the 3 Day Forecast Summary for San Francisco,
+        California
+      operationId: Get_forecast3_example_
+      x-api-path-slug: keyforecastqcasan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Forecast
+      - Q
+      - CA
+      - San
+      - Francisco
+      - Json
+  /{key}/almanac/q/{state}/San_Francisco.json:
+    get:
+      summary: Get Key Almanac Q Ca San Francisco
+      description: This example will return Today's Average Highs/Lows and Record
+        Highs/Lows for San Francisco, California.
+      operationId: Get_almanac_example_
+      x-api-path-slug: keyalmanacqstatesan-francisco-json-get
+      parameters:
+      - in: path
+        name: city
+        description: The city
+        type: string
+        format: string
+      - in: path
+        name: state
+        description: The state
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Key
+      - Almanac
+      - Q
+      - CA
+      - San
+      - Francisco
       - Json
 x-streamrank:
   polling_total_time_average: 0

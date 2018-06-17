@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Weather
-created: "2018-05-28"
-modified: "2018-05-28"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weatherbit/apis.md
 specificationVersion: "0.14"
 apis:
