@@ -16,6 +16,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/netatmo/apis.yaml
 - name: Weather Underground
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/weather-underground/apis.yaml
+- name: ClimaCell
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/climacell/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
