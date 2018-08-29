@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Weather Underground
 x-complete: 1
@@ -1025,4 +1024,3 @@ paths:
       - San
       - Francisco
       - Json
----

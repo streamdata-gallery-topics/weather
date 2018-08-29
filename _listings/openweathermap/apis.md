@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1348-openw
 x-kinRank: "7"
 x-alexaRank: "30941"
 tags: Weather
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/openweathermap/apis.md
 specificationVersion: "0.14"
-apis:
-- name: OpenWeatherMap
-  x-api-slug: openweathermap
-  description: Get current weather, daily forecast for 16 days, and 3-hourly forecast
-    5 days for your city. Helpful stats, graphics, and this day in history charts
-    are available for your reference. Interactive maps show precipitation, clouds,
-    pressure, wind around yo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1348-openweathermap.jpg
-  humanURL: https://openweathermap.org
-  baseURL: https:///
-  tags: Weather
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/openweathermap/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.openweathermap.org

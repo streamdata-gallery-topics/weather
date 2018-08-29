@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11181-nati
 x-kinRank: "10"
 x-alexaRank: "1083"
 tags: Weather
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/national-weather-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: National Weather Service
-  x-api-slug: national-weather-service
-  description: NOAAs National Weather Service is building a Weather-Ready Nation by
-    providing better information for better decisions to save lives and livelihoods.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11181-national-weather-service.jpg
-  humanURL: http://weather.gov
-  baseURL: https:///
-  tags: Weather
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weather/master/_listings/national-weather-service/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/national-weather-service---nws
